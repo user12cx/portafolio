@@ -16,7 +16,6 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import { LogoIcon } from "./Icons";
 
 interface RouteProps {
   href: string;
@@ -54,8 +53,7 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              <LogoIcon />
-              Flexing Code
+              Main Linux
             </a>
           </NavigationMenuItem>
 
@@ -79,7 +77,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    Flexing Code
+                    Main Linux
 
                   </SheetTitle>
                 </SheetHeader>
@@ -100,7 +98,7 @@ export const Navbar = () => {
                     href="https://github.com/user12cx"
                     target="_blank"
                     className={`w-[110px] border ${buttonVariants({
-                      variant: "secondary",
+                      variant: "link",
                     })}`}
                   >
                     <GitHubLogoIcon className="mr-2 w-5 h-5" />
@@ -132,7 +130,7 @@ export const Navbar = () => {
               rel="noreferrer noopener"
               href="https://github.com/user12cx"
               target="_blank"
-              className={`border ${buttonVariants({ variant: "secondary" })}`}
+              className={`border ${buttonVariants({ variant: "link" })}`}
             >
               <GitHubLogoIcon className="mr-2 w-5 h-5" />
               Github
