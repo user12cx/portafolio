@@ -1,10 +1,4 @@
-# Shadcn/UI Landing Page Template
-
-## <a href="https://ui.shadcn.com/" target="_blank">ShadcnUI</a> + <a href="https://react.dev/" target="_blank">React</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
-
-![shadch-landing-page](https://github.com/user12cx/portafolio?tab=readme-ov-file#shadcnui-landing-page-template)
-
-Build your React landing page effortlessly with the required sections to your project. <a href="https://shadcn-landing-page.vercel.app/" target="_blank">Live Demo</a>
+# Portafolio
 
 ## Sections
 
@@ -25,19 +19,13 @@ Build your React landing page effortlessly with the required sections to your pr
 - [x] Frequently Asked Questions(FAQ)
 - [x] Footer
 
-## Features
-
-- [x] Fully Responsive Design
-- [x] User Friendly Navigation
-- [x] Dark Mode
-- [x] Meta tags
 
 ## How to install
 
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/leoMirandaa/shadcn-landing-page.git
+git clone https://github.com/user12cx/portafolio.git
 ```
 
 2. Go into project
