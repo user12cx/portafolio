@@ -2,6 +2,7 @@ import { buttonVariants } from "./ui/button";
 import { HeroCards } from "./HeroCards";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { IconMesage } from "./Icons";
+import { LocateFixedIcon } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -9,19 +10,21 @@ export const Hero = () => {
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
-            <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
+            <span className="inline bg-gradient-to-r from-[#4a9d7b]  to-[#47d253] text-transparent bg-clip-text">
               Ivan Bautista
             </span>{" "}
             Developer
           </h1>{" "}
           <h2 className="inline">
-            <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
+            <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#17afe1] text-transparent bg-clip-text">
               Full Stack
             </span>{" "}
 
           </h2>
         </main>
-
+        <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0 dark:text-green-500 flex items-center gap-3">
+         <LocateFixedIcon/> Lima- Perú
+        </p>
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
           Estoy listo para llevar tus ideas al siguiente nivel. ¿Trabajamos juntos?
         </p>

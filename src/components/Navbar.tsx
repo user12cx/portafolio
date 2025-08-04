@@ -53,7 +53,7 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              Main Linux
+              Ivan
             </a>
           </NavigationMenuItem>
 
