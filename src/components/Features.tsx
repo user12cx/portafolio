@@ -10,6 +10,8 @@ import {
 } from "@/components/ui/card";
 import { ArrowRight, X } from "lucide-react";
 
+
+
 interface ProjectProps {
   id: number;
   title: string;
@@ -22,19 +24,19 @@ interface ProjectProps {
 const featuredProjects: ProjectProps[] = [
   {
     id: 1,
-    title: "Sistema de Gestión Educativa",
+    title: "Sistema de Ventas",
     description: "Plataforma web para administración escolar",
     longDescription: "Sistema completo con módulos de calificaciones, asistencia, comunicación padres-profesores y panel administrativo. Desarrollado con React y Node.js.",
-    tags: ["React", "Node.js", "MongoDB", "Tailwind"],
-    image: "../assets/reflecting.png"
+    tags: ["React", "Node.js", "Sql Server", "Tailwind", "Sustand "],
+    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4M-fWbKq7qF1i6cMGoCYXkWj9uo11zZxbSA&s'
    },
   {
     id: 2,
-    title: "App de Tareas Diarias",
-    description: "Gestión de tareas con sincronización en la nube",
+    title: "App Inventario Personal",
+    description: "Gestión tus gastos de manera continua y flexible",
     longDescription: "Aplicación móvil con autenticación, notificaciones push y sincronización en tiempo real usando Firebase.",
-    tags: ["React Native", "Firebase", "Expo"],
-    image: "../assets/cube-leg.png"
+    tags: ["React Native", "Sql Server", "Expo Go"],
+    image: 'https://cdn-www.stelorder.com/wp-content/uploads/2024/02/programa-de-gestion-empresarial-de-STEL-Order-1.png'
   },
   {
     id: 3,
@@ -42,7 +44,7 @@ const featuredProjects: ProjectProps[] = [
     description: "Tienda online para negocio local",
     longDescription: "Catálogo de productos, carrito de compras, pasarela de pagos con Stripe y panel de administración con Next.js.",
     tags: ["Next.js", "Stripe", "PostgreSQL"],
-    image: "../assets/pilot.png"
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtUYK8NcPLZ9FMbpYt2spnEgZ-kMdsDb9QXQ&s'
   },
 ];
 
