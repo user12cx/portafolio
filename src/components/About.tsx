@@ -1,4 +1,4 @@
-import pilot from "../assets/pilot.png";
+import pilot from "../assets/imagen2.jpeg";
 import { Badge } from "./ui/badge";
 import { Code, Cpu, Settings, Network, BookOpenCheck, Rocket, Star, Database } from "lucide-react";
 
@@ -42,6 +42,9 @@ export const About = () => {
                   <div className="flex flex-wrap gap-2 mt-2">
                     <Badge className="bg-cyan-500/10 text-cyan-500">
                       <Code className="h-3 w-3 mr-1" /> React.js
+                    </Badge>
+                    <Badge className="bg-green-500/10 text-violet-500">
+                      <Code className="h-3 w-3 mr-1" /> Next-10
                     </Badge>
                     <Badge className="bg-purple-500/10 text-purple-500">
                       <Settings className="h-3 w-3 mr-1" /> TypeScript

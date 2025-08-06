@@ -24,20 +24,20 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#features",
-    label: "Features",
+    href: "#hero",
+    label: "Perfil",
   },
   {
-    href: "#testimonials",
-    label: "Testimonials",
+    href: "#about",
+    label: "Sobre Mi",
   },
   {
-    href: "#pricing",
-    label: "Pricing",
+    href: "#projects",
+    label: "Proyectos",
   },
   {
-    href: "#faq",
-    label: "FAQ",
+    href: "#cta",
+    label: "Cv",
   },
 ];
 
@@ -77,7 +77,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    Main Linux
+                    Ivan
 
                   </SheetTitle>
                 </SheetHeader>
